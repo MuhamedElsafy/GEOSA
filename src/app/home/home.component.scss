@@ -1,0 +1,276 @@
+*{
+    direction: rtl !important;
+   }
+// filter style
+
+.menu-filter {
+  width: 20%;
+  padding: 15px;
+  h2 {
+    color: #303944;
+    text-align: right;
+    font-family: Noto Kufi Arabic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 20px;
+  }
+  .filter1 {
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: #174076;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+    }
+  }
+  .itemss {
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: #738089;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    a {
+      color: #738089;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+// Doucs info style
+.info {
+  padding: 20px;
+  width: 80%;
+  background: #fff;
+}
+.cont-search {
+  position: relative;
+
+  input {
+    height: 35px;
+    border: 1px solid #3574b2;
+    background: #fff;
+    box-shadow: 2px 6px 25px 0px rgba(0, 0, 0, 0.06) inset;
+    width: 85%;
+  }
+
+  i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #afa1a1;
+  }
+}
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 35px;
+  flex-shrink: 0;
+  border: 1px solid #3574b2;
+  background: #fff;
+  box-shadow: 2px 6px 25px 0px rgba(0, 0, 0, 0.06) inset;
+  float: left;
+
+  p {
+    color: #44474a;
+    text-align: right;
+    font-family: Alexandria;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 187.5% */
+  }
+}
+.points {
+  display: flex;
+  padding: 4px 0;
+  .point {
+    opacity: 0.2;
+    background: #bfd3dc;
+    width: 60px;
+    height: 23.594px;
+    display: flex;
+    margin: 5px;
+    padding: 3px;
+    p {
+      display: flex;
+      text-align: center;
+      width: 46px;
+      height: 12.828px;
+      color: #000;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 14px;
+      font-weight: 600;
+
+    }
+  }
+}
+.doucs {
+  p {
+    color: #3574b2;
+    font-family: Noto Kufi Arabic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  span {
+    color: #303944;
+    font-family: Noto Kufi Arabic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+.line {
+  opacity: 0.4;
+  background: #515151;
+  width: 1034px;
+  height: 1px;
+  margin: 5px;
+  position: absolute;
+}
+.doucs-info {
+  border-left: 6px solid #3574b2;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+  margin-top: 30px;
+  position: relative;
+  h2 {
+    color: #303944;
+    text-align: right;
+    font-family: Noto Kufi Arabic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .point2 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background: #dceeff;
+    width: 50px;
+    height: 30px;
+
+    p {
+      color: #3574b2;
+      font-family: Noto Kufi Arabic;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
+  .point3 {
+    background: #ffdce1;
+    width: 50px;
+    height: 30px;
+    p {
+      color: #e76777;
+      text-align: center;
+      font-family: Noto Kufi Arabic;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+    }
+  }
+}
+.doucs-info2 {
+  border-left: 6px solid #e76777;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+  position: relative;
+  h2 {
+    color: #303944;
+    text-align: right;
+    font-family: Noto Kufi Arabic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .point4 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background: #ffdce1;
+    width: 50px;
+    height: 30px;
+
+    p {
+      color: #e76777;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
+  .type {
+    display: flex;
+
+    .point5 {
+      background: #cfffe7;
+      margin-left: 8px;
+      width: 50px;
+      height: 30px;
+      p {
+        color: #00733b;
+        text-align: right;
+        font-family: Noto Kufi Arabic;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+    .point6 {
+      background: #ffefd9;
+      margin-left: 8px;
+      width: 50px;
+      height: 30px;
+      p {
+        color: #ff9100;
+        text-align: right;
+        font-family: Noto Kufi Arabic;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+* {
+  direction: ltr;
+}
+section {
+  padding: 20px;
+  width: 97%;
+  background: #fff;
+  direction: rtl !important;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #515151;
+    opacity: 0.6;
+
+    p {
+      color: #525659;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    a {
+      color: #525659;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px; /* 175% */
+      svg {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+      }
+    }
+  }
+  .download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+
+    .number {
+      p {
+        color: #3574b2;
+        text-align: center;
+        font-family: Noto Kufi Arabic;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        background: #e7f3ff;
+        padding: 4px;
+      }
+    }
+  }
+  .down {
+    justify-content: left;
+    align-items: center;
+    background: #eef1f4;
+    padding: 5px;
+  }
+  .treaty {
+    margin: 15px 0px;
+    text-align: end;
+  }
+  .main-info {
+    text-align: end;
+    // opacity: 0.5;
+    background: #eef1f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    .infoo {
+      width: 30%;
+
+      h6 {
+        color: #525659;
+        text-align: right;
+        font-family: Noto Kufi Arabic;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      p {
+        color: #174076;
+        text-align: right;
+        font-family: Noto Kufi Arabic;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      a {
+        color: #174076;
+        text-align: right;
+        font-family: Noto Kufi Arabic;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .box-link {
+    // opacity: 0.5;
+    background: #eef1f4;
+    text-align: end;
+    padding: 8px;
+    margin-bottom: 20px;
+    p {
+      color: #525659;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+    .link {
+      border: 1px solid #d3d4e3;
+      background: #f3f5f7;
+      box-shadow: 2px 6px 25px 0px rgba(0, 0, 0, 0.06) inset;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: #174076;
+        text-align: right;
+        font-family: Noto Kufi Arabic;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+  .line {
+    opacity: 0.6;
+    background: #515151;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  h6 {
+    text-align: end;
+    color: #525659;
+    text-align: right;
+    font-family: Noto Kufi Arabic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+  }
+}
+.transaction-data {
+  width: 97%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  .sup-title1 {
+    width: 15%;
+    background-color: #b5bec5;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #515151;
+    p {
+      color: #525659;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+  .sup-title {
+    width: 15%;
+    background-color: #b5bec5;
+    text-align: center;
+    padding: 10px;
+    p {
+      color: #525659;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
+  .data {
+    background: #fff;
+    width: 85%;
+    padding: 10px;
+    text-align: end;
+    border-top: 1px solid #f0f0f0fa;
+    p {
+      color: #004d71;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .data1 {
+    background: #fff;
+    width: 85%;
+    padding: 10px;
+    text-align: end;
+    border-top: 1px solid #f0f0f0fa;
+    p {
+      color: #e76777;
+      text-align: right;
+      font-family: Noto Kufi Arabic;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+
+// .transaction-data {
+//   display: flex;
+//   justify-content: end;
+//   border: 2px 0.6 #515151;
+//   .sup-title {
+//     background-color: #b5bec5;
+//     transform: translate(20px, 0px);
+//     padding: 10px;
+//     padding-left: 25px;
+//     color: #525659;
+//     text-align: right;
+//     font-family: Noto Kufi Arabic;
+//     font-size: 20px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//   }
+//   .data {
+//     padding: 10px;
+//     color: #004d71;
+//     text-align: right;
+//     font-family: Noto Kufi Arabic;
+//     font-size: 20px;
+//     font-style: normal;
+//     font-weight: 300;
+//     line-height: normal;
+//     width: 88%;
+//     border: 1px solid #F0F4F7;
+//     border-left: none;
+//     border-right: none;
+//     transform: translate(20px, 0px);
+//   }
+// }

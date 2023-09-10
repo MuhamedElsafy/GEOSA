@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #B5BEC5;
+}
+h1,h2,p,h4,h5,h6,h3{
+  // direction: rtl !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
